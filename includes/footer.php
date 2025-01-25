@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+	<link href="assets/vendor/animate.css/animate.min.css" rel="stylesheet">
+    <link href="assets/vendor/bootstrap/css/5bootstrap.min.css" rel="stylesheet">
+    <title></title>
+    <style>
+        footer{
+            color:white;
+        }
+        a.fixed-button{
+            bottom:10%;
+            right:3%;
+            position:fixed;
+        }
+        a.fixed-whatsapp{
+            bottom:20%;
+            right:2.5%;
+            position:fixed;
+            
+        }
+        img.scroll-img{
+            height:44px;
+            width:44px;
+            border-radius:22px;
+            border:4px solid orange;
+        }
+        li{
+            list-style-type: none;
+        }
+        .angle-scroll{
+            font-size: 45px;
+            font-weight: bold;
+            color: rgb(170, 36, 98);
+        }
+       
+    </style>
+</head>
+<body class="">
+    <section class="container-fluid bg-dark">
+    <footer class="footer pt-5 text-white bg-dark pb-4">
+        <div class="container-fluid bg-dark">
+            <div class="row bg-dark justify-content-start">
+                <div class="row  justify-content-center bg-dark p-2">
+                    <div class="col-md-2 col-sm-6">
+                        <h5 style="color: gold; opacity:0.7;">Useful Links</h5>
+                        <ul>
+                            <li><a href="index.php" style="color: gold; opacity:0.7; text-decoration:none;">Home</a></li>
+                            <li><a href="#testimonials" style="color: gold; opacity:0.7; text-decoration:none;">Testimonials</a></li>
+                            <li><a href="#testimonials" style="color: gold; opacity:0.7; text-decoration:none;">Engines</a></li>
+                            <li><a href="#contat-target" style="color: gold; opacity:0.7; text-decoration:none;">Contact</a></li>
+                        
+                        </ul>
+                    </div>
+                    <div class="col-md-2 col-sm-6">
+                        <h5 style="color: gold; opacity:0.7;">Social Media</h5>
+                        <ul>
+                            <li><a href="https://wa.me/+27719846694" style="color: gold; opacity:0.7; text-decoration:none;">WhatsApp</a></li>
+                            <li><a href="https://www.facebook.com" style="color: gold; opacity:0.7; text-decoration:none;">Facebook</a></li>
+                            <li><a href="https://www.instagram.com/katelizabeth770?igsh=MWp0ZHFjbDAycmU5MQ==" style="color: gold; opacity:0.7; text-decoration:none;">Instagram</a></li>
+                            <!-- <li><a href="https://www.telegram.com/" style="color: gold; opacity:0.7; text-decoration:none;">Telegram</a></li> -->
+                            <!-- <li><a href="https://vm.tiktok.com/ZM6W4c2Hu/" style="color: gold; opacity:0.7; text-decoration:none;">TikTok</a></li> -->
+                         <!--   <li><a href="#" style="color: gold; opacity:0.7; text-decoration:none;">Youtube</a></li>-->
+                        
+                        </ul>
+                    </div>
+                    <div class="col-md-3 col-sm-9">
+                        <h5 style="color: gold; opacity:0.7;">Contact</h5>
+                        <ul>
+                            <li><a href="mailto:grandautosparesptyltd@gmail.com " class="fa fa-envelope" style="color: gold; opacity:0.7; text-decoration:none;"> grandautosparesptyltd@gmail.com </a></li>
+                            <li><span style="color: gold; opacity:0.7;" class="fa fa-phone"></span>
+                            <a href="#" class="fa fa-whatsapp" style="color: gold; opacity:0.7; text-decoration:none;"> +27 719 846 694</a></li>
+                            <li><a href="#" class="fas fa-map-maker" style="color: gold; opacity:0.7; text-decoration:none;"> <b>LOCATION</b>: 63 Pickering StreetNewton Park, Gqeberha, 6055</a></li>
+                        </ul>
+                    </div>
+                    <div class="col-md-3 col-sm-9 align-self-center">
+                        <div style="color: gold; opacity:0.7;" class="copyright">Copyright &copy;2025 <br> 
+                        <span style="color: gold;">DEVELOPER: </span><span style="color: gold; opacity:;">Vernyuy Basile Njodzeven</span><br>
+                        <span style="color: gold; opacity:;">EMAIL: <a href="mailto:verbasile16@gmail.com" style="text-decoration:none; color: gold; opacity:;">verbasile16@gmail.com</a><br>
+                           <span style="color: gold; opacity:;">TEL: </span><span class="fa fa-phone"></span>
+                           <a href="https://wa.me/653627978"class="fa fa-whatsapp"style="color: gold; opacity:; text-decoration:none; background-color:black;">+237 653 62 79 78</a> 
+                           <br><span>TEL: </span><span class="fa fa-phone"></span>
+                           <a href="https://wa.me/683055175"class="fa fa-whatsapp"style="color: gold; opacity:; text-decoration:none; background-color:black;">+237 683 05 51 75</a> 
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+     </footer>
+     <div class="container-fluid bg-dark">
+        <div class="row">
+            <div class="col">
+                <a href="https://wa.me/27719846694" class="fixed-whatsapp " style="font-size: 40px;">
+                <i style="border-radius: 20px; height: 40px; width: 40px; padding-left: 3px; padding-top: 1px;" class="bg-success text-white fa fa-whatsapp"></i></a>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col">
+                <a href="#top" class="fixed-button"><i class="fa fa-angle-up angle-scroll"></i></a>
+            </div>
+        </div>
+     </div>
+     </section>
+</body>
+</html>
